@@ -1,0 +1,289 @@
+body{
+    padding: 0;
+    margin: 0;
+
+}
+
+
+
+.header {
+   
+    
+    height: 150px;
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+    font-size:20px;
+    
+
+  
+}
+.mail{
+    margin-right: 30px;
+}
+
+.bar{
+    margin-left:30px ;
+}
+
+
+
+.section1{
+    display: flex;
+    flex-direction: row;
+   
+ 
+
+}
+
+.section1 img{
+    height: 400px;
+    width:300px;
+   
+}
+
+
+.section1 .inner11{
+  margin-left: 10px;
+  margin: auto;
+  height:600px ;
+  text-align: center;
+
+
+}
+.section2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 20px;
+}
+.section2 .inner21{
+    width: 35px;
+    height: 35px;
+    text-decoration: none;
+   
+
+}
+.section2 .inner21 a{
+  
+    text-decoration: none;
+    color:black;
+    width: 35px;
+    height: 35px;
+    display:inline-block;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 5px;
+
+
+
+}
+
+.section2 .inner21 :hover{
+    background-color: black;
+    color: white;
+}
+.h{
+   
+    text-align:center;
+    size:20px;
+    
+}
+.cr{
+height: 400px;
+margin-left: 200px;
+
+
+}
+
+.cor{
+    margin-top: 100px;
+    
+}
+
+.co{
+    margin-right: 200px;
+}
+.cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 200px;
+
+  
+
+}
+
+.card{
+    margin-left:20px;
+}
+.section5 .inner51{
+     width:700px;
+     margin: auto;
+   
+
+
+
+}
+.section5 .btn{
+    margin-left:410px;
+
+}
+
+.section5 .f{
+    margin-left:410px;
+
+
+
+}
+
+.section5{
+    margin-top:150px ;
+}
+.section6 .inner61 {
+  text-align: center;
+}
+
+.section6{
+background-color: #c3c1c1;
+margin-top: 20px;
+padding-top:30px;
+font-size: 20px;
+}
+.inner63{
+    background-color: black;
+    display: inline-block;
+    box-sizing: border-box;
+    color:white;
+    font-size:15px ;
+    padding-top:1px;
+    padding-left: 3px;
+    padding-right: 3px;
+    width:100px;
+    height: 30px;
+
+
+}
+.inner64{
+    margin-top:20px ;
+}
+.section6 a{
+    text-decoration: none;
+    color:black;
+   
+}
+.section7 {
+    display:flex;
+    flex-direction: row;
+
+}
+.section71{
+    display: flex;
+    flex-direction: column;
+}
+.section71 .card{
+    margin-top: 60px;
+    border-radius: 0%;
+   
+}
+.section7 .btnn{
+    border:1px solid rgb(199, 197, 197);
+   
+}
+.section7 a{
+    box-sizing: border-box;
+    text-decoration:none;
+    padding: 7px;
+    color:black;
+    
+}
+
+.section7 .inner72{
+    display:flex;
+    flex-direction: row;
+    justify-content:space-between;
+    margin-top: 30px;
+
+}
+.inner72 .inner721 {
+    width:30px;
+    height: 30px;
+    border-radius: 50%;
+    padding:6px 12px;
+    background-color: black;
+    color: white;
+    padding-top: 2px;
+    
+}
+
+ @media screen and (max-width: 912px) and (min-width: 280px) {
+   .section1{
+    display: flex;
+    flex-direction: column;
+    margin:0px 4px ;
+
+   }
+   }
+
+
+@media screen and (max-width: 912px) and (min-width: 280px) {
+    .section5 input{
+    width:200px ;
+    }
+    }
+@media screen and (max-width: 912px) and (min-width: 280px) {
+    .section5 {
+            margin-left: 20px;
+            font-size: 10px;
+
+        }
+        }
+     
+@media screen and (max-width: 912px) and (min-width: 280px) {
+     .section5 #exampleCheck1 {
+               width: 10px!important;
+            }
+            }
+
+@media screen and (max-width: 912px) and (min-width: 280px) {
+     .cards {
+           flex-direction: column;
+           
+                }
+                }
+
+ @media screen and (max-width: 912px) and (min-width: 280px) {
+     .cor {
+           margin-right: 0 px;
+           width:100%;
+                }
+                 }
+   
+ @media screen and (max-width: 912px) and (min-width: 280px) {
+    .cr {
+          margin-right: 0 px;
+          width:100%;
+               }
+                }                
+
+@media screen and (max-width: 912px) and (min-width: 280px) {
+
+
+    .header{
+        width:300px ;
+        text-align: center;
+       
+    }
+ }    
+ 
+ 
+ @media screen and (max-width: 912px) and (min-width: 280px) {
+
+
+    .inner1{
+        width:300px ;
+        
+        margin-left:10px;
+       
+    }
+ }      
